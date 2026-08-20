@@ -62,11 +62,16 @@ async def handle_title(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 async def handle_date(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """Parse date/time, ask 4 recurrence."""
     date_input = update.message.text.strip()
     
-    # Try flexible parsing
-    parsed_dt = utils.parse_datetime_flexible(date_input)
+    # Try 2 split date & time (e.g., "tmr 2pm" → "tmr" + "2pm")
+    parts = date_input.rsplit(" ", 1)  # Split last space
+    
+    if len(parts) == 2:
+        date_part, time_part = parts
+        parsed_dt = utils.parse_datetime_flexible(date_part, time_part)
+    else:
+        parsed_dt = utils.parse_datetime_flexible(date_input)
     if not parsed_dt:
         await update.message.reply_text(
             "couldn't parse that. try: 'tmr', 'tmr 2pm', 'sep 20', 'next monday'"
