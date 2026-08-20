@@ -1,0 +1,8 @@
+python-telegram-bot[job-queue]==21.6
+APScheduler==3.10.4
+python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
+requests==2.32.3
+anthropic==0.40.0
+pytz==2024.1
+caldav==0.10.0
