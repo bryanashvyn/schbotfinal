@@ -1,3 +1,14 @@
+CATEGORIES = {
+    "class": "📚 Class",
+    "exam": "📝 Exam",
+    "assignment": "🧾 Assignment",
+    "date": "❤️ Date",
+    "trip": "✈️ Trip",
+    "work": "💼 Work",
+    "keydate": "🔑 Key date",
+    "other": "📌 Other",
+}
+
 """/add conversation: simple & natural flow with flexible date parsing."""
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import (
