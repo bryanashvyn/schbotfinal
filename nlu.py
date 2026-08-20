@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 from dateutil import parser as dtparser
 
 import db
-import calendar_sync
+import calendar_syn_apple as calendar_sync
 import event_ops
 from handlers.add_event import CATEGORIES
 
