@@ -14,6 +14,8 @@ from handlers.shift import build_setshift_handler, shift_show
 from handlers.browse import list_events, today, delete_event, categories
 from handlers.calendar import build_calendar_handlers
 from handlers.settings import build_settings_handlers
+from handlers.edit import build_edit_handler
+from handlers.casual_chat import get_casual_chat_handler
 from scheduler import setup_scheduler
 import nlu
 
