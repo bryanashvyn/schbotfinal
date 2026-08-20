@@ -10,7 +10,7 @@ import db
 # Dad jokes and puns (rotating, no repeats per user per day)
 DAD_JOKES = [
     "why did the exam go to the gym? cos it wanted to test its strength lol",
-    "i told my class schedule it was too demanding. it didn't take it personally tho 😅",
+    "i told my class the schedule it was too demanding. it didn't take it personally tho 😅",
     "assignments r like dad jokes — they just keep coming and nobody asked for them",
     "what did the calendar say to the clock? 'u're always on time, i'm just trying to get through the day'",
     "exam season? more like 'why-am-i-even-alive' season eh",
@@ -25,7 +25,7 @@ DAD_JOKES = [
     "if ur reading this instead of studying, high five. we're in this 2gether",
     "my therapist: what's stressing u? me: everything. also dad jokes",
     "u know what they call a trip without planning? an adventure. u know what they call planning 2 much? still an adventure, just with anxiety eh",
-    "i'm not saying i'm addicted 2 planning trips but i've got tabs open 4 47 hotels rn",
+    "i'm not saying i'm addicted 2 planning trips but i've got tabs open for 47 hotels rn",
     "trip planning: where 'leaving 2morrow' becomes 'leaving... eventually' 💀",
     "packing 4 a trip is just choosing which anxiety 2 travel with",
     "the only thing longer than a flight is the checklist 2 prepare 4 it",
