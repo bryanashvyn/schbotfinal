@@ -3,7 +3,7 @@ from telegram.ext import ContextTypes
 
 HELP_TEXT = (
     "🗓 *schedule bot (ur personal assistant)*\n\n"
-    "i'm here 2 keep ur life organized eh. just talk 2 me naturally!\n"
+    "i'm here to keep ur life as organized as it can be. just talk 2 me naturally thx!\n"
     "e.g. \"exam on 5 sep 2pm, remind me a day & 1 hour before\" or \"when's my shift 2morrow?\"\n\n"
     "*adding stuff:*\n"
     "/add — guided buttons 4 new events\n"
@@ -33,7 +33,7 @@ HELP_TEXT = (
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "hey! 👋 i'm ur personal schedule assistant eh.\n"
+        "hey! 👋 i'm ur personal schedule assistant ish.\n"
         "i'll help u keep track of classes, exams, assignments, dates, trips, work shifts, "
         "& all the important stuff — without letting u 4get anything.\n\n"
         "just chat w/ me naturally or use the commands below!\n\n"
