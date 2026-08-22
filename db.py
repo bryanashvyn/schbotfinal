@@ -1,5 +1,5 @@
 """Postgres persistence layer 4 the schedule bot."""
-import pg8000.native
+import pg8000
 from urllib.parse import urlparse
 import os
 import json
