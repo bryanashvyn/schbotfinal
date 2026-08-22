@@ -47,9 +47,13 @@ def main():
     app.add_handler(CommandHandler("today", today))
     app.add_handler(CommandHandler("delete", delete_event))
     app.add_handler(CommandHandler("categories", categories))
-        app.add_handler(build_export_handler())
+    app.add_handler(build_edit_handler())
+    app.add_handler(build_export_handler())
     for handler in build_settings_handlers():
         app.add_handler(handler)
+
+    # Casual chat (hi, bye, thanks) runs BEFORE NLU
+    app.add_handler(get_casual_chat_handler())
 
     # Registered last: only fires when no /add or /setshift conversation is
     # active for this chat, since those own their own text states.
