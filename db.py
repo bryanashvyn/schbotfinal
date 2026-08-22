@@ -1,6 +1,6 @@
 """Postgres persistence layer 4 the schedule bot."""
-import psycopg2
-from psycopg2.extras import RealDictCursor
+import pg8000.native
+from urllib.parse import urlparse
 import os
 import json
 from datetime import datetime, timezone
