@@ -12,7 +12,7 @@ from handlers.start import start, help_cmd
 from handlers.add_event import build_conversation_handler
 from handlers.shift import build_setshift_handler, shift_show
 from handlers.browse import list_events, today, delete_event, categories
-from handlers.calendar import build_calendar_handlers
+from handlers.export_calendar import build_export_handlers
 from handlers.settings import build_settings_handlers
 from handlers.edit import build_edit_handler
 from handlers.casual_chat import get_casual_chat_handler
@@ -47,8 +47,7 @@ def main():
     app.add_handler(CommandHandler("today", today))
     app.add_handler(CommandHandler("delete", delete_event))
     app.add_handler(CommandHandler("categories", categories))
-    for handler in build_calendar_handlers():
-        app.add_handler(handler)
+        app.add_handler(build_export_handler())
     for handler in build_settings_handlers():
         app.add_handler(handler)
 
