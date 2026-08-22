@@ -32,29 +32,29 @@ DAD_JOKES = [
 ]
 
 ENCOURAGEMENT = [
-    "u got this, champ 💪",
+    "u got this, champ ",
     "i believe in u even if nobody else does (which they prob do btw)",
     "ur gonna absolutely smash this",
-    "so proud of u 4 even trying ah",
+    "so proud of u 4 even trying eh",
     "this is it — ur moment",
     "go show the world what ur made of",
-    "i'll b here cheering u on eh",
-    "ur stronger than u think, trust me",
-    "the fact that ur prepared already means ur halfway there",
+    "i'll b here cheering u on always ok",
+    "ur stronger than u think, trust bro trust",
+    "the fact that u are trying to prepare already means ur halfway there",
 ]
 
 DATE_VIBES = [
     "ooh date night? cute 🥰",
-    "romance alert incoming eh",
+    "ahhhh someone is a romantic today",
     "ahhh someone's getting their love on",
-    "this is gonna b so nice, i can feel it",
-    "treat her well ok. she's a keeper 💕",
+    "this is gonna be so cute, but you are cuter",
+    "treat them well ok. you are a keeper 💕",
     "going out? fancy fancy. i approve 👍",
 ]
 
 TRIP_VIBES = [
     "adventures calling! passport ready? ✈️",
-    "ooh where u going. i'm excited 4 u eh",
+    "ooh where u going. i'm excited 4 u ",
     "travel bucket ticking off soon! nice",
     "go explore, see the world",
     "can't wait 2 hear ur stories when ur back",
@@ -63,14 +63,14 @@ TRIP_VIBES = [
 
 WORK_VIBES = [
     "grinding it out, i see 💼",
-    "bring ur a-game 2 this one",
+    "bring ur A-game 2 this one",
     "ur gonna handle this like a pro",
     "work work work, but remember 2 breathe ok",
     "get that bread! 💪",
 ]
 
 CLASS_VIBES = [
-    "class time! learnings incoming 📚",
+    "class time! knowledge incoming 📚",
     "ur brain's about 2 get smarter, buckle up",
     "knowledge is power, go get some",
     "i hope prof's got the good stuff 2 teach 2day",
@@ -89,9 +89,9 @@ EXAM_VIBES = [
     "exam time! show it who's boss 🚀",
     "all those study sessions r about 2 pay off ah",
     "confidence is key. and also preparation. mostly preparation lol",
-    "u studied 4 this, trust urself",
-    "go in there & ace it, i'm rooting 4 u",
-    "exam? more like ur time 2 shine ✨",
+    "u studied 4 this, trust urself lol",
+    "go in there & ace it, i'm rooting 4 u (but also you dont have a choice)",
+    "exam? more like ur time 2 not choke. jk love you ✨",
 ]
 
 CATEGORY_VIBES = {
