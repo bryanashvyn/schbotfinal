@@ -15,7 +15,7 @@ if not DATABASE_URL:
 def get_conn():
     """Get a Postgres connection."""
     url = urlparse(DATABASE_URL)
-    conn = pg8000.native.connect(
+    conn = pg8000.connect(
         user=url.username,
         password=url.password,
         host=url.hostname,
