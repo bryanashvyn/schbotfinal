@@ -29,7 +29,11 @@ TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 async def on_startup(application):
     setup_scheduler(application)
 
-
+async def main():
+    import db
+    db.init_db()  # Initialize Postgres tables
+    
+    app = Application.builder().token(TELEGRAM_BOT_TOKEN).build()
 def main():
     if not TOKEN:
         raise SystemExit("Set TELEGRAM_BOT_TOKEN in your .env file first (see .env.example).")
