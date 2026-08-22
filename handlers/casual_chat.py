@@ -13,7 +13,7 @@ CASUAL_PATTERNS = {
         "how can i help you",
         "good morning my fellow brethren, how can i be of assistance",
     ],
-    r"(bye|goodbye|see u|cya|later|adios)": [
+    r"(bye|goodbye|see u|byebye|bye bye|cya|later|adios)": [
         "catch u later!",
         "bye! take care",
         "see u next life",
