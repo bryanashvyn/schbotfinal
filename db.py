@@ -14,7 +14,15 @@ if not DATABASE_URL:
 
 def get_conn():
     """Get a Postgres connection."""
-    return psycopg2.connect(DATABASE_URL, cursor_factory=RealDictCursor)
+    url = urlparse(DATABASE_URL)
+    conn = pg8000.native.connect(
+        user=url.username,
+        password=url.password,
+        host=url.hostname,
+        port=url.port or 5432,
+        database=url.path.lstrip('/')
+    )
+    return conn
 
 
 def init_db():
